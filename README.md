@@ -32,7 +32,7 @@ Windows:
 ### 2.2 run a new Docker container
 Linux/MacOS:
 
-    $ docker run -p 8888:8888 -v /data:/notebooks -it--rm tennisky/data-analysis-environment-by-docker
+    $ docker run -p 8888:8888 -v /data:/notebooks -it --rm tennisky/data-analysis-environment-by-docker
 
 Windows:
 
