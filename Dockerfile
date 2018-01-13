@@ -5,12 +5,12 @@ LABEL maintainer “Shiho ASA<asashiho@mail.asa.yokohama>”
 # Install dependencies
 RUN apt-get update && apt-get install -y \
     libblas-dev \
-	liblapack-dev\
+    liblapack-dev\
     libatlas-base-dev \
     mecab \
     mecab-naist-jdic \
     libmecab-dev \
-	gfortran \
+    gfortran \
     libav-tools \
     python3-setuptools
 
@@ -28,7 +28,7 @@ RUN pip --no-cache-dir install \
         sklearn \
         jupyter \
         ipykernel \
-		scipy \
+	scipy \
         simpy \
         matplotlib \
         numpy \
@@ -40,6 +40,7 @@ RUN pip --no-cache-dir install \
         Pillow \
         h5py \
 	xgboost \
+	seaborn \
         google-api-python-client \
         && \
     python -m ipykernel.kernelspec
