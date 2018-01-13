@@ -39,6 +39,7 @@ RUN pip --no-cache-dir install \
         librosa \
         Pillow \
         h5py \
+	xgboost \
         google-api-python-client \
         && \
     python -m ipykernel.kernelspec
