@@ -52,12 +52,14 @@ Windows:
 >- matplotlib
 >- numpy
 >- pandas
+>- seaborn
 >- plotly
 >- sympy
 >- mecab-python3
 >- librosa
 >- Pillow
 >- h5py
+>- xgboost
 >- google-api-python-client
 
 
