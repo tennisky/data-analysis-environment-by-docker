@@ -40,6 +40,7 @@ RUN pip --no-cache-dir install \
         Pillow \
         h5py \
 	xgboost \
+	lightgbm \
 	seaborn \
         google-api-python-client \
         && \
