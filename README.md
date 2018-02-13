@@ -60,6 +60,7 @@ Windows:
 >- Pillow
 >- h5py
 >- xgboost
+>- lightgbm
 >- google-api-python-client
 
 
