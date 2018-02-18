@@ -61,6 +61,7 @@ Windows:
 >- h5py
 >- xgboost
 >- lightgbm
+>- tqdm
 >- google-api-python-client
 
 
