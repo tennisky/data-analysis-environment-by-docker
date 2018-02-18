@@ -42,6 +42,7 @@ RUN pip --no-cache-dir install \
 	xgboost \
 	lightgbm \
 	seaborn \
+	tqdm \
         google-api-python-client \
         && \
     python -m ipykernel.kernelspec
