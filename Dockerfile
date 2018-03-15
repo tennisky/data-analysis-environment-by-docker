@@ -1,6 +1,6 @@
 # TensorFlow & scikit-learn with Python3.6
 FROM python:3.6
-LABEL maintainer “Shiho ASA<asashiho@mail.asa.yokohama>”
+LABEL maintainer “Kazuki Yoshihara”
 
 # Install dependencies
 RUN apt-get update && apt-get install -y \
