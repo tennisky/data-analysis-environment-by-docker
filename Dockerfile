@@ -62,7 +62,7 @@ RUN echo "c.NotebookApp.ip = '*'" >>${CONFIG} && \
 RUN echo "c.InteractiveShellApp.exec_lines = ['%matplotlib inline']" >>${CONFIG_IPYTHON} 
 
 # Copy sample notebooks.
-COPY notebooks /data
+COPY notebooks /notebooks
 
 # port
 EXPOSE 8888 6006 
@@ -70,5 +70,5 @@ EXPOSE 8888 6006
 VOLUME /notebooks
 
 # Run Jupyter Notebook
-WORKDIR "/data"
+WORKDIR "/notebooks"
 CMD ["jupyter","notebook","data","--allow-root"]
