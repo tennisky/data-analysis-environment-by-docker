@@ -18,11 +18,11 @@ quick links here:
 ### 2.1 create a new Data directory at local
 Linux/MacOS:
 
-    $ mkdir /data
+    $ mkdir /notebooks
     
 Windows:
 
-    $ mkdir c:\data
+    $ mkdir c:\notebooks
 
 
 >**[Note]**
@@ -32,11 +32,11 @@ Windows:
 ### 2.2 run a new Docker container
 Linux/MacOS:
 
-    $ docker run -p 8888:8888 -v /data:/notebooks -it --rm tennisky/data-analysis-environment-by-docker
+    $ docker run -p 8888:8888 -v /notebooks:/notebooks -it --rm tennisky/data-analysis-environment-by-docker
 
 Windows:
 
-    $ docker run -p 8888:8888 -v /c/data:/notebooks -it --rm tennisky/data-analysis-environment-by-docker
+    $ docker run -p 8888:8888 -v /c/notebooks:/notebooks -it --rm tennisky/data-analysis-environment-by-docker
 
 
 
