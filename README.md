@@ -11,7 +11,8 @@ quick links here:
 
 * [OSX](https://www.docker.com/docker-mac)
 * [Windows](https://www.docker.com/docker-windows)
-* [Ubuntu](https://www.docker.com/docker-ubuntu)
+* [CentOS](https://docs.docker.com/engine/install/centos/)
+* [Ubuntu](https://docs.docker.com/engine/install/ubuntu)
 
 ## 2. Running the container
 
