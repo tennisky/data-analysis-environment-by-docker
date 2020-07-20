@@ -71,4 +71,4 @@ VOLUME /notebooks
 
 # Run Jupyter Notebook
 WORKDIR "/notebooks"
-CMD ["jupyter","notebook","data","--allow-root"]
+CMD ["jupyter","notebook","--allow-root"]
